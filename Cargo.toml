@@ -8,7 +8,7 @@ edition = "2021"
 anyhow = "1.0"
 clap = { version = "4.1", features = ["derive"] }
 fmtools = "0.1"
-kube = "0.79"
-k8s-openapi = { version = "0.17", features = ["v1_26"] }
+kube = "0.82"
+k8s-openapi = { version = "0.18", features = ["v1_26"] }
 ptree = "0.4"
 tokio = { version = "1.25", features = ["full"] }
